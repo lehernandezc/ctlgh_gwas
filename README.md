@@ -59,5 +59,4 @@ The geotpyes files can be found at (pending):
   - sample_month: 1-12 (Jan - Dec)
   - animalsex: "female" ~ 1, animalsex == "male" ~ 2
   - herdsize_fct: <5 (1), 5-10 (2),  10-90 (3), > 90 (4)
-  - PC1, PC2, PC3, PC4, PC5: PCA analysis  
 
