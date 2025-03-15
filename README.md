@@ -8,27 +8,27 @@ The following is the accompanying code for the Frontiers in Genetics research ar
 doi: pending 
 
  ## Instructions 
-  -  Population structure analysis PCa in Plink using bed files.
+  -  Population structure analysis PCA in Plink using bed files.
 
   - Example script for admixture analysis: admixture_analysis.sh
 
-  - Example asreml analysis: asreml_analysis.as
+  - Example ASReml analysis: asreml_analysis.as
 
   - Example gemma analysis: gemma_analysis.txt
 
  ## Genotypes files in BED format with Tanzanian and reference populations
 
-  - Merged_04-2022_1.bed
-  - Merged_04-2022_1.bim
-  - Merged_04-2022_1.fam 
+The geotpyes files can be found at (pending):
+  - Merged_04-2022_TZA.bed
+  - Merged_04-2022_TZA.bim
+  - Merged_04-2022_TZA.fam 
 
  ## metadata columns
 
-  - id: sample id
-  - givid: asreml id
+  - animalid: sample id (In the .fam file remove digit before TZ to match back to metadata id)
   - rvf_elisa_pn: RVF elisa result (1:positive; 0:negative) 
   - lepto_elisa_pn: Leptospira elisa result (1:positive; 0:negative)
-  -  bruc_elisa_pn: Brucella elisa result (1:positive; 0:negative)   
+  - bruc_elisa_pn: Brucella elisa result (1:positive; 0:negative)   
   - qfev_elisa_pn:  Q-fever elisa result (1:positive; 0:negative)   
   - BVDV_elisa_pn:  BVDV elisa result (1:positive; 0:negative)
   - toxo_elisa_pn: Toxoplasma elisa result (1:positive; 0:negative)
