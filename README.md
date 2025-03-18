@@ -16,16 +16,16 @@ doi: pending
 
   - Example gemma analysis: gemma_analysis.txt
 
- ## Genotypes files in BED format with Tanzanian and reference populations
+ ## Genotypes files in vcf format
 
-The geotpyes files can be found at (pending):
-  - Merged_04-2022_TZA.bed
-  - Merged_04-2022_TZA.bim
-  - Merged_04-2022_TZA.fam 
+The genotpyes files can be found at (pending):
+  - Merged_04-2022_TZA.vcf
+
 
  ## metadata columns
+Merged_04-2022_TZA_metadata.txt
 
-  - animalid: sample id (In the .fam file remove digit before TZ to match back to metadata id)
+  - AID: sample id
   - rvf_elisa_pn: RVF elisa result (1:positive; 0:negative) 
   - lepto_elisa_pn: Leptospira elisa result (1:positive; 0:negative)
   - bruc_elisa_pn: Brucella elisa result (1:positive; 0:negative)   
